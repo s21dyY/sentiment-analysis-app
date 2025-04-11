@@ -45,19 +45,3 @@ Hosted on Streamlit Cloud: [Insert Link Here]
 
 ## Authors
 - Sandy Yang
-
-"""
-
-# requirements.txt (starter content)
-dataset
-pandas
-numpy
-scikit-learn
-nltk
-streamlit
-matplotlib
-seaborn
-shap
-transformers
-joblib
-plotly
