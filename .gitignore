@@ -1,0 +1,24 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Environments
+env/
+.venv/
+*.env
+
+# Model artifacts (if too large)
+*.h5
+*.pkl
+
+# Streamlit config
+.streamlit/
+
+# Logs and data
+*.log
+*.csv
+*.tsv
+*.json
+*.zip
+.DS_Store
