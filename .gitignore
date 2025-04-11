@@ -8,6 +8,8 @@ env/
 .venv/
 *.env
 
+#Plannig
+planning/
 
 # Streamlit config
 .streamlit/
