@@ -56,31 +56,15 @@ The app uses a deep learning model with the following architecture:
 
 ---
 
-## 🚀 How to Run Locally
-
-### 1. Clone this repo:
-```bash
-git clone https://github.com/your-username/sentiment-analysis-app.git
-cd sentiment-analysis-app
-```
-
-### 2. Set up environment and install dependencies:
-```bash
-python -m venv env
-source env/bin/activate
-pip install -r requirements.txt
-```
-
-### 3. Run the app:
-```bash
-streamlit run app.py
-```
-
 ## 📁 Project Structure
 ```bash
 sentiment-analysis-app
+model
+├── sentiment_lstm_model.h5 # Trained model file
+notebooks
+├── EDA_and_Modeling.ipynb  # Model training and EDA
+src
 ├── app.py                  # Main Streamlit app
-├── sentiment_lstm_model.h5# Trained model file
 ├── tokenizer.pkl           # Tokenizer used for text preprocessing
 ├── utils.py                # Helper functions for preprocessing & prediction
 ├── requirements.txt        # Dependencies
