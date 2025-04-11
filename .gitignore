@@ -8,9 +8,6 @@ env/
 .venv/
 *.env
 
-# Model artifacts (if too large)
-*.h5
-*.pkl
 
 # Streamlit config
 .streamlit/
